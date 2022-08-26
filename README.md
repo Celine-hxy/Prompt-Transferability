@@ -1,11 +1,12 @@
-# On Transferability of Prompt Tuning for Natural Language Processing
 
+# Prompt Transferability
 [![Version](https://img.shields.io/badge/Version-v0.1.0-blue?color=FF8000?color=009922)](https://img.shields.io/badge/Version-v0.1.0-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
-[![Arxiv](https://img.shields.io/badge/arXiv-2111.06719-B21A1B)](https://arxiv.org/abs/2111.06719)
+[![DOI](https://img.shields.io/badge/DOI-10.18653/v1/2022.naacl-green?color=FF8000?color=009922)](https://aclanthology.org/2022.naacl-main.290)
 [![GitHub Stars](https://img.shields.io/github/stars/thunlp/Prompt-Transferability?style=social)](https://github.com/thunlp/Prompt-Transferability/stargazers)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VCSIDaX_pgkrSjzouaNH14D8Fo7G9GBz?usp=sharing)
 
-- [**NAACL 2022**](https://2022.naacl.org/) Accepted. [[**pdf**]](https://arxiv.org/abs/2111.06719)
+This is the source code of "On Transferability of Prompt Tuning for Natural Language Processing", an [NAACL 2022](https://2022.naacl.org/) paper [[**pdf**]](https://aclanthology.org/2022.naacl-main.290/).
 
 ## Overview
 ![prompt_transferability](github_fig/prompt_transferbility_github.png)
@@ -198,20 +199,38 @@ Utilize different metrics to evaluate transferability indicators:
 python3 caculate_metric_value_for_correlation.py
 ```
 
+## Activated Neurons Demo 
+[Colab](https://colab.research.google.com/drive/1VCSIDaX_pgkrSjzouaNH14D8Fo7G9GBz?usp=sharing)
 
 ## Citations
-[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.2111.06719-green?color=FF8000?color=009922)](https://arxiv.org/abs/2111.06719)
+[![DOI](https://img.shields.io/badge/DOI-10.18653/v1/2022.naacl-green?color=FF8000?color=009922)](https://aclanthology.org/2022.naacl-main.290)
 
 Please cite our paper if it is helpful to your work!
 
 ```bibtex
-@inproceedings{su2021transferability,
-   title={On Transferability of Prompt Tuning for Natural Language Processing},
-   author={Su, Yusheng and Wang, Xiaozhi and Qin, Yujia and Chan, Chi-Min and Lin, Yankai and Wang, Huadong and Wen, Kaiyue and Liu, Zhiyuan and Li, Peng and Li, Juanzi and Hou, Lei and Sun, Maosong and Zhou, Jie},
-   booktitle={Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
-   year={2022},
-   doi = {10.48550/ARXIV.2111.06719},
-   url = {https://arxiv.org/abs/2111.06719}
+@inproceedings{su-etal-2022-transferability,
+    title = "On Transferability of Prompt Tuning for Natural Language Processing",
+    author = "Su, Yusheng  and
+      Wang, Xiaozhi  and
+      Qin, Yujia  and
+      Chan, Chi-Min  and
+      Lin, Yankai  and
+      Wang, Huadong  and
+      Wen, Kaiyue  and
+      Liu, Zhiyuan  and
+      Li, Peng  and
+      Li, Juanzi  and
+      Hou, Lei  and
+      Sun, Maosong  and
+      Zhou, Jie",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.290",
+    doi = "10.18653/v1/2022.naacl-main.290",
+    pages = "3949--3969"
 }
 ```
 
